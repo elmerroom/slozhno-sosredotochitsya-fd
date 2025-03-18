@@ -9,8 +9,35 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --background-image: url(/images/cover-image-light.png);
+  --accent-color: #FF8DCB;
+  --buttonAsideText-color: #353430;
+  --mainText-color: #353430;
+  --header-title: #FFC2E6;
+
+  .header__theme-menu-button:hover {
+    border: 1px solid rgba(50, 49, 45, 0.40);
+  }
+
+  .header__recording {
+    display: none;
+  }
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-image: url(/images/cover-image-light.png);
+    --accent-color: #FF8DCB;
+    --buttonAsideText-color: #353430;
+    --mainText-color: #353430;
+    --header-title: #FFC2E6;
+  }
+
+  .header__recording {
+    display: none;
+  }
 }
