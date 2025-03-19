@@ -53,7 +53,7 @@
   height: 20px;
   width: 20px;
   position: absolute;
-  top: var(--container-padding); 
+  top: var(--container-padding);
   right: var(--container-padding);
 }
 
