@@ -24,22 +24,7 @@
     display: none;
   }
 
-  @media (768px <= width < 1024px) {
-    .header {
-      /* min-height: 1024px; */
-      margin-block-end: 60px;
-    }
-
-    .mainText {
-      padding-inline-start: 20px;
-      padding-inline-end: 20px;
-      gap: 10px;
-    }
-
-    .mainText_imgBlock {
-      margin-block-end: 60px;
-    }
-  }
+  
 }
 
 .theme-light .page {
@@ -58,5 +43,22 @@
 
   .header__recording {
     display: none;
+  }
+
+  @media (768px <= width < 1024px) {
+    .header {
+      gap: 60px;
+      margin-block-end: 60px;
+    }
+
+    .mainText {
+      padding-inline-start: 20px;
+      padding-inline-end: 20px;
+      gap: 10px;
+    }
+
+    .mainText_imgBlock {
+      margin-block-end: 60px;
+    }
   }
 }
