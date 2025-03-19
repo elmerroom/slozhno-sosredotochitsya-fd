@@ -93,7 +93,6 @@
   background-color: transparent;
   border: none;
   inline-size: 70px;
-  block-size: 26px;
   color: var(--buttonAsideText-color);
 }
 
@@ -156,7 +155,6 @@
 
 .mainText__questionTitle {
   color: var(--buttonAsideText-color);
-  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 23.4px;
@@ -172,7 +170,6 @@
 
 .mainText__answerTitle-advice {
   flex-shrink: 0;
-  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 23.4px;
@@ -214,7 +211,6 @@
 .footer {
   display: grid;
   position: relative;
-  block-size: calc(100vh - var(--container-padding));
   margin: auto;
   min-height: 668px;
 }
@@ -378,14 +374,8 @@
   }
 
   .header__title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     align-self: center;
     justify-self: start;
-  }
-
-
-  .container {
-    grid-template-rows: 40% 23% 39%;
   }
 
   .mainText {
