@@ -15,6 +15,12 @@
   --mainText-color: #353430;
   --header-title: #FFC2E6;
   --background-color: #FFF1F7;
+  --header-gap: 60px;
+  --margin-block-end: 60px;
+  --padding-inline-start: 20px;
+  --padding-inline-end: 20px;
+  --main-text-gap: 10px;
+  --margin-block-end-img: 60px;
 
   .header__theme-menu-button:hover {
     border: 1px solid rgba(50, 49, 45, 0.40);
@@ -39,26 +45,15 @@
     --mainText-color: #353430;
     --header-title: #FFC2E6;
     --background-color: #FFF1F7;
+    --header-gat: 60px;
+    --margin-block-end: 60px;
+    --padding-inline-start: 20px;
+    --padding-inline-end: 20px;
+    --main-text-gap: 10px;
+    --margin-block-end-imt: 60px;
   }
 
   .header__recording {
     display: none;
-  }
-
-  @media (768px <= width < 1024px) {
-    .header {
-      gap: 60px;
-      margin-block-end: 60px;
-    }
-
-    .mainText {
-      padding-inline-start: 20px;
-      padding-inline-end: 20px;
-      gap: 10px;
-    }
-
-    .mainText_imgBlock {
-      margin-block-end: 60px;
-    }
   }
 }

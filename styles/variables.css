@@ -11,4 +11,18 @@
   --buttonAsideText-color: #ff0070;
   --header-title: #DB00FF;
   --background-image: #000028;
+
+  --header-gap-light: 60px;
+  --margin-block-end-light: 60px;
+  --padding-inline-start-light: 20px;
+  --padding-inline-end-light: 20px;
+  --main-text-gap-light: 10px;
+  --margin-block-end-img-light: 60px;
+
+  --header-gap: 55px;
+  --margin-block-end: 64px;
+  --padding-inline-start: 13px;
+  --padding-inline-end: 27px;
+  --main-text-gap: 10px;
+  --margin-block-end-img: 50px;
 }

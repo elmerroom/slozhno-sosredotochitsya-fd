@@ -17,7 +17,7 @@
   margin-block-end: 40px;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-  gap: 55px;
+  gap: var(--header-gap);
   inline-size: calc(100% - var(--container-padding)*2);
   margin-inline: auto;
 }
@@ -119,14 +119,14 @@
   align-self: center;
 }
 
-.header__textBlock {
+.header__text-block {
   justify-self: end;
   max-width: 365px;
   font-weight: 700;
   align-self: start;
 }
 
-.mainText {
+.main-text {
   display: grid;
   gap: 50px;
   padding-inline: 10px;
@@ -153,22 +153,22 @@
   padding-inline: 2px;
 }
 
-.mainText__questionTitle {
+.main-text__question-title {
   color: var(--buttonAsideText-color);
   font-style: normal;
   font-weight: 700;
   line-height: 23.4px;
 }
 
-.mainText_paragraph {
+.main-text__paragraph {
   margin-block-end: 20px;
 }
 
-.mainText_paragraph:last-child:last-child {
+.main-text__paragraph:last-child:last-child {
   margin-block-end: 0px;
 }
 
-.mainText__answerTitle-advice {
+.main-text__answer-title-advice {
   flex-shrink: 0;
   font-style: normal;
   font-weight: 400;
@@ -182,7 +182,7 @@
   line-height: 23.4px;
 }
 
-.mainText_imgBlock {
+.main-text__img-block {
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
@@ -195,7 +195,7 @@
   object-fit: contain;
 }
 
-.marginNone {
+.margin-none {
   margin: 0px;
 }
 
@@ -204,7 +204,7 @@
   gap: 20px;
 }
 
-.adviceMargin {
+.advice-margin {
   margin-block-end: 20px;
 }
 
@@ -229,7 +229,7 @@
 @media (768px <= width < 1024px) {
   .header {
     min-height: 1024px;
-    margin-block-end: 64px;
+    margin-block-end: var(--margin-block-end);
   }
 
   .header__theme-menu {
@@ -241,15 +241,19 @@
     justify-self: start;
   }
 
-  .header__textBlock {
+  .header__text-block {
     align-self: start;
   }
 
-  .mainText {
-    padding-inline-start: 13px;
-    padding-inline-end: 27px;
+  .main-text {
+    padding-inline-start: var(--padding-inline-start);
+    padding-inline-end: var(--padding-inline-end);
     gap: 10px;
   }
+
+  /* .main-text__img-block {
+    margin-block-end: var(--margin-block-end)
+  } */
 }
 
 @media(width >= 768px) {
@@ -282,52 +286,52 @@
     margin-block-end: 70px;
   }
 
-  .mainText__hardFocus {
+  .main-text__hard-focus {
     display: grid;
     grid-template-columns: 1fr;
   }
 
-  .mainText__reducesConcentration {
+  .main-text__reduces-concentration {
     display: grid;
     grid-column: 1 / 3;
     grid-template-rows: repeat(6, min-content);
   }
 
-  .mainText__improveConcentration {
+  .main-text__improve-concentration {
     display: grid;
   }
 
-  .mainText_imgBlock {
+  .main-text__img-block {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-block-end: 50px;
+    margin-block-end: var(--margin-block-end-img);
     gap: 20px;
   }
 
-  .marginNone {
+  .margin-none {
     grid-column: 1 / 4;
   }
 
-  .sansetImg {
+  .sanset-img {
     grid-column: 1 / 3;
   }
 
-  .ice-creamImg {
+  .ice-cream-img {
     grid-column: 3;
     grid-row: 2 / 4;
   }
 
-  .tapeImg {
+  .tape-img {
     grid-row: 3/5;
     grid-column: 1;
   }
 
-  .booksImg {
+  .books-img {
     grid-column: 2;
     grid-row: 3;
   }
 
-  .streetImg {
+  .street-img {
     grid-column: 2 / span 2;
     grid-row: 4/5;
   }
@@ -368,7 +372,7 @@
     gap: 10px;
   }
 
-  .header__textBlock {
+  .header__text-block {
     max-width: 491px;
     align-self: start;
   }
@@ -378,28 +382,28 @@
     justify-self: start;
   }
 
-  .mainText {
+  .main-text {
     padding-inline-start: 20px;
     padding-inline-end: 20px;
     gap: 10px;
     line-height: 23.4px;
   }
 
-  .mainText__reducesConcentration {
+  .main-text__reduces-concentration {
     gap: 0px 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, max-content);
   }
 
-  .mainText__reducesConcentration .mainText__answerTitle {
+  .main-text__reduces-concentration .main-text__answer-title {
     grid-row: 1;
   }
 
-  .mainText__reducesConcentration .mainText_paragraph {
+  .main-text__reduces-concentration .main-text__paragraph {
     grid-row: 2;
   }
 
-  .mainText_imgBlock {
+  .main-text__img-block {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-block-end: 60px;

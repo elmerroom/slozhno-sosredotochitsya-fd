@@ -15,6 +15,12 @@
   --buttonAsideText-color: #ff0070;
   --header-title: #DB00FF;
   --background-color: #000028;
+  --header-gap: 55px;
+  --margin-block-end: 64px;
+  --padding-inline-start: 13px;
+  --padding-inline-end: 27px;
+  --main-text-gap: 10px;
+  --margin-block-end-img: 50px;
 
   .header__theme-menu-button:hover {
     border: 1px solid rgba(255, 0, 112, 0.40);
@@ -39,6 +45,12 @@
     --buttonAsideText-color: #ff0070;
     --header-title: #DB00FF;
     --background-color: #000028;
+    --header-gap: 55px;
+    --margin-block-end: 64px;
+    --padding-inline-start: 13px;
+    --padding-inline-end: 27px;
+    --main-text-gap: 10px;
+    --margin-block-end-img: 50px;
   }
 
   .header__recording {
