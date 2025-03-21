@@ -16,7 +16,7 @@
   --header-title: #DB00FF;
   --background-color: #000028;
   --header-gap: 55px;
-  --margin-block-end: 64px;
+  --margin-block-end: 66px;
   --padding-inline-start: 13px;
   --padding-inline-end: 27px;
   --main-text-gap: 10px;
@@ -39,14 +39,14 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --accent-color: #ff0070;
-    --container-padding: 10px;
+    /* --container-padding: 10px; */
     --background-image: url(../images/cover-image-dark.png);
     --mainText-color: #F1B2CE;
     --buttonAsideText-color: #ff0070;
     --header-title: #DB00FF;
     --background-color: #000028;
     --header-gap: 55px;
-    --margin-block-end: 64px;
+    --margin-block-end: 66px;
     --padding-inline-start: 13px;
     --padding-inline-end: 27px;
     --main-text-gap: 10px;
@@ -55,5 +55,9 @@
 
   .header__recording {
     display: block;
+  }
+
+  .header__theme-menu-button:hover {
+    border: 1px solid rgba(255, 0, 112, 0.40);
   }
 }
