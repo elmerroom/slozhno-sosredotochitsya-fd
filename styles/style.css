@@ -175,7 +175,7 @@
 
 .title-decor {
   background: var(--accent-color);
-  color: var(--mainText-color);
+  color: var(--title-decor-text);
   margin-block-end: 10px;
   line-height: 23.4px;
 }

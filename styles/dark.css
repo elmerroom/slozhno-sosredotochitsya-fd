@@ -15,6 +15,7 @@
   --buttonAsideText-color: #ff0070;
   --header-title: #DB00FF;
   --background-color: #000028;
+  --title-decor-text:#000028;
   --header-gap: 55px;
   --margin-block-end: 66px;
   --padding-inline-start: 13px;
@@ -45,6 +46,7 @@
     --buttonAsideText-color: #ff0070;
     --header-title: #DB00FF;
     --background-color: #000028;
+    --title-decor-text:#000028;
     --header-gap: 55px;
     --margin-block-end: 66px;
     --padding-inline-start: 13px;

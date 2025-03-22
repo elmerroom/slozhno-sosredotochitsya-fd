@@ -15,6 +15,7 @@
   --mainText-color: #353430;
   --header-title: #FFC2E6;
   --background-color: #FFF1F7;
+  --title-decor-text:#353430;
   --header-gap: 56px;
   --margin-block-end: 60px;
   --padding-inline-start: 20px;
@@ -45,6 +46,7 @@
     --mainText-color: #353430;
     --header-title: #FFC2E6;
     --background-color: #FFF1F7;
+    --title-decor-text:#353430;
     --header-gap: 56px;
     --margin-block-end: 60px;
     --padding-inline-start: 20px;
